@@ -1,4 +1,4 @@
-name: todo
+name: taskr
 description: Let's create a to do list for your day.
 publish_to: 'none'
 
@@ -13,6 +13,8 @@ dependencies:
     sdk: flutter
 
 
+  go_router: ^6.0.8
+  riverpod: ^2.2.0
   cupertino_icons: ^1.0.2
 
 dev_dependencies:
@@ -41,5 +43,5 @@ flutter:
   #       - asset: fonts/TrajanPro.ttf
   #       - asset: fonts/TrajanPro_Bold.ttf
   #         weight: 700
-  #
+  
 

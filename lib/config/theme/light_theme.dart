@@ -7,13 +7,11 @@ final lightThemeProvider = StateNotifierProvider<LightThemeNotifier, ThemeData>(
 );
 
 class LightThemeNotifier extends StateNotifier<ThemeData> {
-  LightThemeNotifier() : super(ThemeData()) {
-    init();
-  }
-
-  void init() {
-    state = ThemeData(
-      useMaterial3: true,
-    );
-  }
+  LightThemeNotifier()
+      : super(
+          ThemeData(
+            useMaterial3: true,
+            brightness: Brightness.light,
+          ),
+        );
 }
